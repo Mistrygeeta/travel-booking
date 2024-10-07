@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Booking Form</h1>
+        <form>
+            <label for="destination">Destination:</label>
+            <select  name="destination" id="destination" required>
+                <option value="">Select a destination</option>
+                <option value="paris">Paris</option>
+                <option value="">New York</option>
+                <option value="">Canada</option>
+                <option value="">India</option>
+                <option value="">Tokyo</option>
+            </select>
+            <!-- Depature Date -->
+             <label for="depature">Depature Date:</label>
+             <input type="date" id="depature" name="depature" required>
+             <!-- Return Date -->
+              <label for="Return"> Return Date:</label>
+              <input type="date" id="return" name="return" required>
+              <!-- travelers -->
+               <label for="travelers">Number of Travelers:</label>
+               <select name="travelers" id="travelers" required>
+                <option value="">Select the number of travelers</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+               </select>
+               <!-- Select class -->
+                <label for="class">Travel class:</label>
+                <select name="class" id="classs" required>
+                    <option value="">Select Class</option>
+                    <option value="">Economy</option>
+                    <option value="">First Class</option>
+                    <option value="">Business</option>
+                </select>
+                <button>Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
